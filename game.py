@@ -64,7 +64,7 @@ def main(win):
 			len_ = len(table) - 1
 			chon = 0
 			for i in table:
-				win.addstr(str(i))
+				#win.addstr(str(i))
 				keyNumb(i)
 			next_ = False
 		try:
